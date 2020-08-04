@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Contact Teju!!!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <style>
-        .jumbotron{
+        .jumbotron {
             margin: 5% 20% 0 20% !important;
+        }
+
+        .fa {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 4px;
+            font-size: 25px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 2px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.5;
+            color: black;
+
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        .custom-btn{
+            margin-bottom: 20px;
         }
     </style>
 </head>
-<body >
+
+<body>
     <div class="jumbotron">
         <h2>Reach me out here</h2>
         <form>
@@ -30,8 +74,13 @@
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary custom-btn">Submit</button>
         </form>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
     </div>
 </body>
+
 </html>
